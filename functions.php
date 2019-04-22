@@ -75,10 +75,11 @@ if ( ! function_exists( 'twentyfifteen_fonts_url' ) ) :
 	}
 endif;
 
-function child_scripts() {
-    wp_enqueue_script( 'font-awesome', 'https://use.fontawesome.com/0e3415d4ab.js', array(), '', false );
-}
+add_action( 'wp_enqueue_scripts', 'enqueue_child_scripts' );
 
-add_action( 'wp_enqueue_scripts', 'child_scripts' );
+function enqueue_child_scripts() {
+	wp_enqueue_script( 'font-awesome', 'https://use.fontawesome.com/0e3415d4ab.js', array(), '1.0', false );
+	wp_enqueue_script( 'nightmode', get_stylesheet_directory_uri()  . '/nightmode.js', array( 'jquery' ), '20190330', true );
+}
 
 ?>
