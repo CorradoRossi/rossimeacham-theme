@@ -1,0 +1,1 @@
+### Wordpress child theme for personal site

@@ -1,0 +1,575 @@
+/*
+Theme Name: Twenty Fifteen Child
+Theme URL: http://rossimeacham.com
+Description: Twenty Fifteen Child Theme
+Author: MotoRossi
+Author URL: http://rossimeacham.com
+Template: twentyfifteen
+Version: 1.0.0
+Text Domain: twentyfifteen-child
+*/ 
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*@font-face {
+    font-family: "entypo";
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0/entypo.woff') format(woff);
+}*/
+
+body,
+button,
+input,
+select,
+textarea {
+	color: #333;
+	font-family: "Lora", serif;
+	font-size: 15px;
+	font-size: 2rem;
+	line-height: 1.6;
+}
+
+blockquote {
+    margin-left: 2%;
+    font-size: 1.5rem;
+}
+
+.post-navigation .post-title {
+	font-family: "Lora", serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	line-height: 1.3333;
+	position: relative;
+	z-index: 2;
+}
+
+.widget_calendar caption {
+	font-family: "Lora", serif;
+	font-weight: 700;
+	margin: 0 0 1.6em;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+.page-title {
+	font-family: "Lora", serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	line-height: 1.3333;
+}
+
+.comments-title,
+.comment-reply-title {
+	font-family: "Lora", serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	line-height: 1.3333;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+blockquote cite,
+blockquote small {
+	color: #333;
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-family: "Lora", sans-serif;
+	line-height: 1.6;
+}
+
+::-webkit-input-placeholder {
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Lora", sans-serif;
+}
+:-moz-placeholder {
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Lora", sans-serif;
+}
+::-moz-placeholder {
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Lora", sans-serif;
+	opacity: 1; /* Since FF19 lowers the opacity of the placeholder by default */
+}
+:-ms-input-placeholder {
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Lora", sans-serif;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button;
+	background-color: #333;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	font-family: "Lora", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight: 700;
+	padding: 0.7917em 1.5em;
+	text-transform: uppercase;
+}
+
+.main-navigation .menu-item-description {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Lora", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight: 400;
+	line-height: 1.5;
+	margin-top: 0.5em;
+}
+
+.post-navigation .meta-nav {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Lora", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	letter-spacing: 0.04em;
+	line-height: 1.5;
+	position: relative;
+	text-transform: uppercase;
+	z-index: 2;
+}
+
+.pagination {
+	background-color: #fff;
+	border-top: 1px solid rgba(51, 51, 51, 0.1);
+	font-family: "Lora", sans-serif;
+}
+
+.image-navigation,
+.comment-navigation {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-family: "Lora", sans-serif;
+	font-weight: 700;
+	line-height: 1.5;
+	text-transform: uppercase;
+}
+
+.site .skip-link {
+	background-color: #F4f4f4;
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+	color: #21759b;
+	display: block;
+	font: bold 14px/normal "Lora", sans-serif;
+	left: -9999em;
+	outline: none;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	text-transform: none;
+	top: -9999em;
+}
+
+.site-title {
+	font-family: "Lora", sans-serif;
+	font-size: 22px;
+	font-size: 2.2rem;
+	font-weight: 700;
+	line-height: 1.3636;
+	margin-bottom: 0;
+}
+
+.site-description {
+	display: none;
+	font-family: "Lora", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0.5em 0 0;
+	opacity: 0.7;
+}
+
+.widget-title {
+	color: #333;
+	font-family: "Lora", sans-serif;
+	margin: 0 0 1.6em;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+
+.widget_rss .rss-date,
+.widget_rss cite {
+	font-family: "Lora", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-style: normal;
+	display: block;
+	line-height: 2;
+	opacity: 0.8;
+}
+
+.author-heading {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Lora", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	letter-spacing: 0.04em;
+	margin-bottom: 1.5em;
+	text-transform: uppercase;
+}
+
+.entry-footer {
+	background-color: #f7f7f7;
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Lora", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	padding: 3.8461% 7.6923%;
+}
+
+.page-links {
+	clear: both;
+	font-family: "Lora", sans-serif;
+	margin-bottom: 1.3333em;
+}
+
+.entry-caption {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Lora", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	line-height: 1.5;
+	padding-top: 0.5em;
+	word-wrap: break-word;
+}
+
+.comment-metadata,
+.pingback .edit-link {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Lora", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+.wp-caption-text {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Lora", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	padding: 0.5em 0;
+}
+
+.widecolumn label,
+.widecolumn .mu_register label {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Lora", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	line-height: 1.5;
+	text-transform: uppercase;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.has-light-gray-color {
+	color: #F4f4f4;
+}
+
+.has-light-gray-background-color {
+	background-color: #F4f4f4;
+}
+
+.site .skip-link {
+    background-color: #F4f4f4;
+}
+
+.custom-logo {
+    max-height: 50px;
+}
+
+.secondary {
+    background-color: #F4f4f4;
+    font-size: 1.6rem;
+    margin-left: 3%;
+}
+
+body {
+    background: #F4F4F4;
+    border-right: 8px solid #DB234F;
+}
+
+body:before {
+    background-color: #F4f4f4;
+    box-shadow: none;
+}
+
+.border-top {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 8px;
+  width: 100vw;
+  background-color: #DB234F;
+  z-index: 10000;
+}
+
+.site-header {
+    background-color: #F4f4f4;
+    border-bottom: none;
+}
+
+.site-footer {
+    background-color: #F4f4f4;
+    box-shadow: none;
+}
+
+.entry-header {
+    padding: 0% 0% 0% 0%;
+}
+
+.entry-title a {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 4.8rem;
+}
+
+.hilite {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 5.2rem;
+  color: #DB234F;
+}
+
+.entry-content {
+    padding: 0% 10% 0% 0%; 
+}
+
+.entry-footer {
+    background-color: #F4f4f4;
+
+}
+
+.hentry {
+    background-color: #F4f4f4;
+    box-shadow: none;
+    padding-top: 0%;
+    margin: 0% 20% 0% 0%;
+}
+
+.secondary-toggle {
+    top: 12px;
+    border: none;
+}
+
+@media screen and (max-width: 59.6875em) {
+    .hentry {
+        margin: 0% 10% 0% 10%;
+    }
+
+    .site-header {
+        padding: 5% 10% 5% 10%;
+    }
+
+    .site-main {
+        padding: 0%;
+    }
+}
+
+@media screen and (min-width: 59.6875em) {
+    .site-content {
+        margin-left: 26%;
+    }
+
+    .site-header {
+        padding: 0 20% 0 5%;
+        margin: 25px 0% 20% 3%;
+    }
+
+    .widget {
+        padding: 0 20% 0 5%;
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+  [class*="fab fa-"]:before {
+    font-family: 'fontAwesome', sans-serif;
+  }
+
+#icony, #icons {
+    font-size: 1.4rem !important;
+  }
+  #icony, #icons {
+    font-family: "Lora", sans-serif;
+    font-style: italic;
+    font-size: 1em;
+    line-height: 1.6;
+    background: none;
+  }
+
+  #icons {
+    text-align: justify;
+    position: fixed;
+    top: 35vh;
+    right: 40px;
+  }
+  
+  #icons a {
+    color: #4183D7;
+    text-decoration: none;
+    font-weight: 400;
+    padding-bottom: 2px;
+    border-bottom: 2px dotted #4183D7;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+  #icony {
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    right: -0px;
+    overflow-x: hidden;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+  #icony:hover {
+    color: #D2527F; 
+    overflow-x: visible;
+  }
+  #icony li a {
+    display: block;
+    margin-left: 0px;
+    height: 50px;
+    width: 80px;
+    border-radius: 25px 0px 0px 25px;
+    background: #F4f4f4;
+    margin-bottom: 1em;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    color: #2980b9;
+    text-decoration: none;
+    line-height: 60px;
+    position: relative;
+  }
+  #icony li a:hover {
+    cursor: pointer;
+    width: 180px;
+    color: #F4f4f4;
+    transform: translateX(-32%);
+  }
+  #icony li a:hover span {
+    right: 120;
+  }
+  #icony li a span {
+    padding: 0 0px 0px 130px;
+    position: absolute;
+    right: 120; 
+    -webkit-transition: right .4s ease;
+    transition: right .4s ease;
+  }
+  #icony li a i {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: 1.5em;
+  }
+  
+  #icony li .motorossi {
+    background: #F4f4f4;
+    border-color: #333333;
+    color:  #333333;
+  }
+  #icony li .motorossi:hover {
+    background: #333333;
+  }
+  #icony li .github {
+    background: #F4f4f4;
+    border-color: #333333;
+    color:  #333333;
+  }
+  #icony li .github:hover {
+    background: #333333;
+  }
+  #icony li .love {
+    background: #F4f4f4;
+    border-color: #333333;
+    color:  #333333;
+  }
+  #icony li .love:hover {
+    background: #333333;
+  }
+  #icony li .blog {
+    background: #F4f4f4;
+    border-color: #333333;
+    color: #333333;
+  }
+  #icony li .blog:hover {
+    background: #333333;
+  }
+  #icony li .dribbble {
+    background: #F4f4f4;
+    border-color: #333333;
+    color: #333333;
+  }
+  #icony li .dribbble:hover {
+    background: #333333;
+  }
+  #icony li .soundcloud {
+    background: #F4f4f4;
+    border-color: #333333;
+    color: #333333;
+  }
+  #icony li .soundcloud:hover {
+    background: #333333;
+  }
+  #icony li .linkedin {
+    background: #F4f4f4;
+    border-color: #333333;
+    color: #333333;
+  }
+  #icony li .linkedin:hover {
+    background: #333333;
+  }
+  #icony li .instagram {
+    background: #F4f4f4;
+    border-color: #333333;
+    color: #333333;
+  }
+  #icony li .instagram:hover {
+    background: #333333;
+  }
+  #icony li .twitter {
+    background: #F4f4f4;
+    border-color: #333333;
+    color: #333333;
+  }
+  #icony li .twitter:hover {
+    background: #333333;
+  }
+
+  
+  /* entypo */
+  
+
+
+ 
